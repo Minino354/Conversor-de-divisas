@@ -1,0 +1,64 @@
+body{
+    background-color:rgba(189, 240, 213, 0.818);
+    text-align: center;
+}
+.textoBienvenida{
+    color:black;
+    display: block;
+    font-size: 30px;
+}
+img{
+    width: 16%;
+    display: block;
+    margin: 0 auto;
+}
+
+.enlace{
+    display: inline;
+}
+
+.inicial{
+    display:block;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+textarea{
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px;
+    resize: none;
+}
+button{
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 15px;
+    border-color:rgb(64, 134, 248);
+    background-color: rgb(64, 134, 248);
+    color:white;
+}
+button:hover{
+    background-color:rgb(26, 95, 206);
+    border-color:rgb(26, 95, 206);
+    color: white;
+
+}
+
+.resultado{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+@media only screen and (max-width: 840px){
+    img{
+        width: 45%;
+    }
+    .textoBienvenida{
+        font-size: 23px;
+    }
+}
